@@ -36,7 +36,7 @@ class Game:
         print "Hello rich man ! Hello " + self.player_name + " !\n"
 
     def lose_sentence(self):
-        print "You are loser. Pay 1,000 yen to Naoki.\n"
+        print "You are loser. Pay 1,000,000 yen to Naoki.\n"
 
 if __name__ == '__main__':
     player_name = 'Bevis'
