@@ -4,7 +4,7 @@ class Game:
     def __init__(self, player_name):
         self.player_name = player_name
         self.bet = 1000
-
+        self.money_total = 1000000
     def run(self):
         self.greeting()
         print "------------------GAME START------------------"
@@ -36,8 +36,8 @@ class Game:
         print "Hello rich man ! Hello " + self.player_name + " !\n"
 
     def lose_sentence(self):
-        print "You are loser. Pay 1,000,000 yen to Naoki.\n"
-
+        print "You are loser. Pay "+str(self.money_total)+"yen to Naoki.\n"
+        self.money_total += 1000000
 if __name__ == '__main__':
     player_name = 'Bevis'
 
