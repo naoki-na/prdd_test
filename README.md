@@ -1,4 +1,4 @@
-prdd_test
+prdd_test2
 =========
 This is a game that Bevis alsways loses.
 
