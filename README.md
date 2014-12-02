@@ -1,4 +1,4 @@
 prdd_test
 =========
-This is a game that Bevis alsways loses.
+This is a game that Bevis always loses.
 
